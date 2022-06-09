@@ -13,3 +13,4 @@ Finally, only the startMoveCmd() is exposed on the class, making all other funct
 
 Overall, the program performs as expected and all tests cases pass. There is still room for improvement. If I was going to make this a complete program, I would look into improving the way we receive our inputs. Currently, for simplicity, these are hardcode in the Main.java at the top. I think the approach of reading the commands from an input file, would make more sense if this was a set of commands that would be sent over a private channel if we are thinking of it being used in space. Another improvement would to build a UI element for this as its output is returned in the command line. This would help make it more user friendly as at this stage it’s directly used by coding the inputs. 
 
+Currently reading input from the console via user input. Given more time, I would add validation on the inputs read at this stage to ensure we have correct types like direction etc. 
